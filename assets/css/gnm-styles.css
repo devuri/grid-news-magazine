@@ -1,5 +1,5 @@
 body a {
-    color: #BE760F;
+    color: #CC5555;
     text-decoration: none;
     background-color: transparent;
     font-family: Roboto,Helvetica,sans-serif;
@@ -7,7 +7,7 @@ body a {
 }
 
 body a:hover {
-    color: #BE760F;
+    color: #CC5555;
     text-decoration: underline;
     background-color: transparent;
 }
@@ -56,9 +56,9 @@ body a:hover {
 
 .dropdown-menu a:hover {
   background: #F3F3F3;
-  color:  #BE760F;
+  color:  #CC5555;
   padding-left: 25px;
-  border-left: solid #000;
+  border-left: solid #CC5555;
 }
 
 
@@ -69,20 +69,20 @@ body a:hover {
 
 /* Link color*/
 ul.nav li a, ul.nav li a:visited {
-    color: #BE760F !important;
+    color: #CC5555 !important;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-    color: #BE760F !important;
+    color: #CC5555 !important;
 }
 
 ul.nav li.active a {
-    color: #BE760F !important;
+    color: #CC5555 !important;
 }
 
 .fade-in {
   animation-name: fadeIn;
-  animation-duration: 1.8s;
+  animation-duration: 1.0s;
   animation-timing-function: cubic-bezier(0, 0, 0.4, 1);
   animation-fill-mode: forwards;
 }
