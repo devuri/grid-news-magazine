@@ -20,6 +20,51 @@ body a:hover {
     background-color: transparent;
 }
 
+.top-nav-links{
+  font-size: small;
+  display: initial;
+  margin-left: 4em;
+}
+
+.top-nav-links a{
+    color: #dadada;
+}
+
+.top-nav-links a:hover{
+    color: #dadada;
+}
+
+.top-nav-links a:active{
+    color: #dadada;
+}
+
+.top-nav-links a:visited{
+    color: #dadada;
+}
+
+.top-social ul {
+      display: inline-block;
+      float: right;
+      padding: unset;
+      margin: unset;
+}
+
+.top-social ul a{
+    color: #dadada;
+
+}
+.top-social ul li {
+    display: inline-block;
+    margin-right: 4px;
+    list-style: none;
+}
+
+.top-social ul li i {
+    padding: 0 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+
 /*
 # HEAD
 -------------------------------------------*/
@@ -133,6 +178,10 @@ body a:hover {
 /*
 # Navigation
 -------------------------------------------*/
+.sw-toggle {
+  font-size: larger;
+  padding: inherit;
+}
 .sw-nav a{
   color: #000;
 
