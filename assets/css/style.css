@@ -476,7 +476,7 @@ body {
 hr {
 	background-color: #ccc;
 	border: 0;
-	height: 1px;
+	height: 0px;
 	margin-bottom: 1.5em;
 }
 
