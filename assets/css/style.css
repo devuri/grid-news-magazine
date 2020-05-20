@@ -1,9 +1,9 @@
 /*!
-Theme Name: GridNews Magazine
+Theme Name: Avesia
 Theme URI: http://underscores.me/
 Author: Themeiko
 Author URI: https://themeiko.com/wordpress/themes
-Description: GridNews Magazine is a simple easy to use grid based magazine style theme
+Description: Avesia is a simple easy to use grid based magazine style theme
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -13,7 +13,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-GridNews Magazine is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Avesia is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -481,7 +481,7 @@ hr {
 }
 
 ul, ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 0 1.5px 3px;
 }
 
 ul {

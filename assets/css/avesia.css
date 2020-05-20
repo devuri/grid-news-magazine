@@ -1,5 +1,5 @@
 /*!
- * GridNews Magazine 0.2.0 by @devuri
+ * Avesia 0.2.0 by @devuri
  * http://themeiko.com/
  * License: GNU General Public License v2 or later
  * Requires Bootstrap v4
@@ -71,17 +71,61 @@ body a:hover {
     background-color: #ff037791;
 }
 
-
 /*
 # Util
 -------------------------------------------*/
-.sw-mute-text{
+
+.search-form input[type=search], .woocommerce-product-search input[type=search] {
+    width: 100%;
+    padding: 8px 45px 7px 12px;
+}
+
+.search-form button[type=submit], .search-form input[type=submit], .woocommerce-product-search button[type=submit], .woocommerce-product-search input[type=submit] {
+    padding:12px;
+    border-radius: 0;
+}
+
+.widget-title {
+  padding: 0.5em;
+  color: black;
+  font-size: inherit;
+  padding-left: 1em;
+  font-weight: 700;
+  border-bottom: solid thin #f0f0f0;
+  text-transform: uppercase;
+}
+
+.asv-tags a{
+  margin:4px;
+}
+
+.blog-content{
+  padding-right: 2em;
+  border-right: solid thin #f0f0f0;
+}
+
+.top-bottom-1m{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.pad-left-1m{
+  padding-left: 1em;
+}
+.avs-mute-text{
   color: #afadad;
 }
 
+.avs-shadow{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3) !important;
+}
 .p-unset{
   padding: unset;
   font-weight: 500;
+}
+
+.avs-margin-unset{
+  margin: unset;
 }
 
 .grey-bg{
@@ -90,18 +134,29 @@ body a:hover {
 .mgntop-2{
     margin-top: 2px;
 }
-.sw-card img{
+.avs-card img{
   border-radius: 0px;
   border-style: none;
   height: 225px;
 }
 
-.swp-1m{
+.avp-1m{
   padding: 1em;
 }
 
-.swp-2m{
-  padding: 1.5em;
+.avs-p-small{
+  padding: 0.5em;
+}
+.avs-mb-2m{
+  margin-bottom: 2em;
+}
+
+.avp-2m{
+  padding: 1.4em;
+}
+
+.avs-card-body{
+  padding-top: 1em;
 }
 
 
@@ -118,7 +173,7 @@ body a:hover {
   margin-top: 1em;
 }
 
-.swp-ptb-1em{
+.avp-ptb-1em{
   padding-bottom: 1em;
 }
 
@@ -126,26 +181,26 @@ body a:hover {
     padding: 1.2em;
 }
 
-.swp-1m-border{
+.avp-1m-border{
   padding: 0px;
   margin: 1em;
   border: solid thin #eaeaea;
 }
 
-.swp-top-1m{
+.avp-top-1m{
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   margin-left: inherit;
 }
 
-.swp-top-2m{
+.avp-top-2m{
   padding-top: 2em;
 }
 
 /*
 # Card
 -------------------------------------------*/
-.sw-card-h2 {
+.avs-card-h2 {
     font-size: medium;
     font-weight: 600;
     margin: unset;
@@ -156,7 +211,7 @@ body a:hover {
     line-height: unset;
 }
 
-.sw-card{
+.avs-card{
   border-radius: 0px;
   border-style: none;
 }
@@ -164,11 +219,11 @@ body a:hover {
 /*
 # Buttons
 -------------------------------------------*/
-.sw-button-rd{
+.avs-button-rd{
   border-radius: 0px;
 }
 
-.sw-button-rd:hover{
+.avs-button-rd:hover{
   background-color: #000;
   color: white;
 }
@@ -177,16 +232,16 @@ body a:hover {
 /*
 # Navigation
 -------------------------------------------*/
-.sw-toggle {
+.avs-toggle {
   border: unset;
   color: black !important;
 }
-.sw-nav a{
+.avs-nav a{
   color: #000;
 
 }
 
-.sw-nav a:hover {
+.avs-nav a:hover {
   color: #CC5555!important;
 }
 
@@ -207,8 +262,8 @@ body a:hover {
     box-shadow: 0 6px 12px rgba(0,0,0,.1);
 }
 
-.sw-nav-item{
-  padding: 1.2em;
+.avs-nav-item{
+  padding: 0.5em;
   text-transform: capitalize;
 }
 
@@ -221,7 +276,6 @@ body a:hover {
     transition: all 0.3s ease 0s;
     position: relative;
     border-bottom: 1px solid #f5f5f5;
-    padding: 0.8em;
 }
 
 .dropdown-menu a:hover {
@@ -262,4 +316,8 @@ ul.nav li.active a {
   to {
     opacity: 1;
   }
+}
+
+.dark-grey-bg{
+  background-color: #0D0D0D;
 }

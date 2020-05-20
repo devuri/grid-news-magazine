@@ -1,1 +1,1 @@
-# grid-news-magazine
+# Avesia Theme
