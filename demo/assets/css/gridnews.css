@@ -1,0 +1,379 @@
+/*!
+ * GridNews 0.5.2 by @devuri
+ * https://github.com/devuri
+ * License: MIT License
+ * Copyright (c) Uriel Wilson
+ *
+ # Body
+-------------------------------------------*/
+body a {
+    color: #CC5555;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Roboto,Helvetica,sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+}
+
+body a:hover {
+    color: #CC5555;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.top-nav-links{
+  font-size: small;
+  display: initial;
+}
+
+.top-nav-links a{
+    color: #dadada;
+}
+
+.top-nav-links a:hover{
+    color: #dadada;
+}
+
+.top-nav-links a:active{
+    color: #dadada;
+}
+
+.top-nav-links a:visited{
+    color: #dadada;
+}
+
+.top-social ul {
+      display: inline-block;
+      float: right;
+      padding: unset;
+      margin: unset;
+}
+
+.top-social ul a{
+    color: #dadada;
+
+}
+.top-social ul li {
+    display: inline-block;
+    margin-right: 4px;
+    list-style: none;
+}
+
+.top-social ul li i {
+    padding: 0 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+
+/*
+# HEAD
+-------------------------------------------*/
+.header-bg-color{
+    background-color: #ff037791;
+}
+
+/*
+# Util
+-------------------------------------------*/
+
+.search-form input[type=search], .woocommerce-product-search input[type=search] {
+    width: 100%;
+    padding: 8px 45px 7px 12px;
+}
+
+.search-form button[type=submit], .search-form input[type=submit], .woocommerce-product-search button[type=submit], .woocommerce-product-search input[type=submit] {
+    padding:12px;
+    border-radius: 0;
+}
+
+.widget-title {
+  padding: 0.5em;
+  color: black;
+  font-size: inherit;
+  padding-left: 1em;
+  font-weight: 700;
+  border-bottom: solid thin #f0f0f0;
+  text-transform: uppercase;
+}
+
+.asv-tags a{
+  margin:4px;
+}
+
+.blog-content{
+  /* border-right: solid thin #f0f0f0; */
+}
+
+.blog-post{
+  padding: 2em;
+}
+
+.cursive-text{
+  font-family: cursive;
+  font-size: 1.1875rem;
+  line-height: 1.9rem;
+  color: #212121;
+}
+
+.exerpt-text{
+  font-family: cursive;
+  line-height: 135%;
+  color: #616161;
+}
+
+.top-bottom-1m{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.pad-left-1m{
+  padding-left: 1em;
+}
+.avs-mute-text{
+  color: #afadad;
+}
+
+.avs-shadow{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3) !important;
+}
+.p-unset{
+  padding: unset;
+  font-weight: 500;
+}
+
+.avs-margin-unset{
+  margin: unset;
+}
+
+.grey-bg{
+  background-color: #F6F6F6;
+}
+.mgntop-2{
+    margin-top: 2px;
+}
+.avs-card img{
+  border-radius: 0px;
+  border-style: none;
+  height: 225px;
+}
+
+.avp-1m{
+  padding: 1em;
+}
+
+.avs-p-small{
+  padding: 0.5em;
+}
+.avs-mb-2m{
+  margin-bottom: 2em;
+}
+
+.avp-2m{
+  padding: 1.4em;
+}
+
+.avs-card-body{
+  padding-top: 1em;
+}
+
+
+.bg-color{
+  background-color: #000;
+}
+
+.bg-color-black{
+  background-color: #000;
+  padding: 0.4em;
+  color: white;
+}
+.mt-1em{
+  margin-top: 1em;
+}
+
+.avp-ptb-1em{
+  padding-bottom: 1em;
+}
+
+.swgr-inner{
+    padding: 1.2em;
+}
+
+.avp-1m-border{
+  padding: 0px;
+  margin: 1em;
+  border: solid thin #eaeaea;
+}
+
+.avp-top-1m{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: inherit;
+}
+
+.avp-top-2m{
+  padding-top: 2em;
+}
+
+.av-row{
+  margin-top: 2em;
+}
+
+.breadcrumbs-post{
+  color:#d4d4d4;
+  margin-bottom: 1em;
+}
+
+.blog-post-title{
+  width: 100%;
+}
+
+.avs-meta{
+  width: 100%;
+  border: solid thin #f1f1f1;
+  border-left: none;
+  border-right: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+
+/*
+# Card
+-------------------------------------------*/
+.avs-card img{
+  transition:1s;
+  cursor:pointer;
+}
+.avs-card img:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+.avs-card-h2 {
+    font-size:large;
+    margin: unset;
+    padding: unset;
+    line-height: unset;
+    display: unset;
+    text-transform: capitalize;
+    line-height: unset;
+}
+
+.avs-card{
+  border-radius: 0px;
+  border-style: none;
+}
+
+.card-footer{
+  background-color: white;
+}
+
+/*
+# Buttons
+-------------------------------------------*/
+.avs-button-rd{
+  border-radius: 0px;
+}
+
+.avs-button-rd:hover{
+  background-color: #000;
+  color: white;
+}
+
+
+/*
+# Navigation
+-------------------------------------------*/
+.avs-toggle {
+  border: unset;
+  color: black !important;
+}
+.avs-nav a{
+  color: #000;
+
+}
+
+.avs-nav a:hover {
+  color: #CC5555!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+    border: unset;
+    border-radius: unset;
+    margin-top: unset;
+    padding: unset;
+    box-shadow: 0 6px 12px rgba(0,0,0,.1);
+}
+
+.avs-nav-item{
+  padding: 0.5em;
+  text-transform: capitalize;
+}
+
+.dropdown-menu a {
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.dropdown-menu a:hover {
+  background: #F3F3F3;
+  color:  #CC5555;
+  padding-left: 25px;
+  border-left: solid #CC5555;
+}
+
+/* Link color*/
+ul.nav li a, ul.nav li a:visited {
+    color: #CC5555 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #CC5555 !important;
+}
+
+ul.nav li.active a {
+    color: #CC5555 !important;
+}
+/*
+# EFFECTS
+-------------------------------------------*/
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 1.0s;
+  animation-timing-function: cubic-bezier(0, 0, 0.4, 1);
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.dark-grey-bg{
+  background-color: #0D0D0D;
+}
