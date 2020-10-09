@@ -1,4 +1,6 @@
-# GridNews Theme
+> **Demo Link:** GridNews Theme Demo: [demo](https://gridnews-theme-demo.herokuapp.com).
+
+## GridNews Theme
 
 ![GridNews-Magazine-Theme-](https://user-images.githubusercontent.com/4777400/95614886-e44ca880-0a2c-11eb-8a83-e0112d34b7af.png)
 
