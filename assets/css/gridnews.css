@@ -1,8 +1,8 @@
 /*!
- * Avesia 0.2.0 by @devuri
- * http://themeiko.com/
- * License: GNU General Public License v2 or later
- * Requires Bootstrap v4
+ * GridNews 0.5.1 by @devuri
+ * https://github.com/devuri
+ * License: MIT License
+ * Copyright (c) Uriel Wilson
  *
  # Body
 -------------------------------------------*/
@@ -105,7 +105,7 @@ body a:hover {
 }
 
 .blog-content{
-  border-right: solid thin #f0f0f0;
+  /* border-right: solid thin #f0f0f0; */
 }
 
 .blog-post{
