@@ -25,4 +25,4 @@ This template is 100% FREE you are not required to **keep the footer attribution
 - [Bootstrap](http://getbootstrap.com/)
 - [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 - [jQuery](http://jquery.com/)
-- Images: [Ben Smith](https://unsplash.com/)
+- Images: [Unsplash](https://unsplash.com/)
