@@ -4,7 +4,7 @@
 
 ## Theme Demo
 
-**Demo:** https://demo
+**Demo:** https://gridnews-theme-demo.herokuapp.com
 
 
 ## MIT License
