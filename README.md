@@ -1,20 +1,20 @@
 > **Demo Link:** GridNews Theme Demo: [demo](https://gridnews-theme-demo.herokuapp.com).
 
-## GridNews Theme
+#### GridNews Theme
 
 ![GridNews-Magazine-Theme-](https://user-images.githubusercontent.com/4777400/95614886-e44ca880-0a2c-11eb-8a83-e0112d34b7af.png)
 
-## Theme Demo
+#### Theme Demo
 
 **Demo:** https://gridnews-theme-demo.herokuapp.com
 
 
-## MIT License
+#### MIT License
 
 This template is 100% FREE you are not required to **keep the footer attribution link**, but it would be nice if you did.
 
 
-## Features
+#### Features
 
 -  Responsive
 -  HTML5 + CSS3
@@ -22,7 +22,7 @@ This template is 100% FREE you are not required to **keep the footer attribution
 -  FontAwesome icons
 
 
-## Credits
+#### Credits
 - [Bootstrap](http://getbootstrap.com/)
 - [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 - [jQuery](http://jquery.com/)
