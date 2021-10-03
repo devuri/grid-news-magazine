@@ -1,0 +1,15 @@
+{
+	"name": "devuri/iTunes-Music-Store",
+	"description": "iTunes-Music-Store",
+	"authors": [
+        {
+            "name": "Uriel Wilson",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+		"ext-curl": "*",
+		"ext-json": "*",
+		"madcoda/php-youtube-api": "^1.2"
+	}
+}
